@@ -1,5 +1,5 @@
 ## Script for transforming getdata-012 course project files to tidy data file
-##
+##  
 ##	1. Download data set into working directory of R
 ## 	2. Read all relevant files from text and train directory.
 ##	3. Add column names to all data tables from label files provided

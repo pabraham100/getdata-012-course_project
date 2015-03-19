@@ -1,4 +1,4 @@
-OUTPUT FILE: Paul_Project.TXT
+OUTPUT FILE: Paul_Project.TXT  
 *  Subject - An identifier of the subject who carried out the experiment Range: 1 : 30
 *  Activity - The activity label with values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 *  tBodyAcc-mean()-X  -  tBody measurement of the accelerometer -mean()-X . It contains the mean of measurement values grouped by subject and activity
