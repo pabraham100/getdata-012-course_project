@@ -1,4 +1,15 @@
-OUTPUT FILE: Paul_Project.TXT  
+The file contains the codebook of the tidy data file Project_Paul.txt that was derived from the raw input data provided for the Course project. The detailed steps that were performed on the raw data (codebook starting.md) is as follows:
+##	1. Download data set into working directory of R
+## 	2. Read all relevant files from text and train directory.
+##	3. Add column names to all data tables from label files provided
+##	4. Add activity labels to activity numbers 
+##	5. Merge/ Concatenate subject and activity columns to test and train data
+##	6. Merge test and train data sets
+##	7. Subset all mean() and std() columns along with Activity and Subject columns
+##	8. Take mean of all mean() and std() columns grouped by subject and activity
+##	9. Write Output file Project_Paul.txt
+
+OUTPUT FILE: Project_Paul.TXT  
 *  Subject - An identifier of the subject who carried out the experiment Range: 1 : 30
 *  Activity - The activity label with values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 *  tBodyAcc-mean()-X  -  tBody measurement of the accelerometer -mean()-X . It contains the mean of measurement values grouped by subject and activity
